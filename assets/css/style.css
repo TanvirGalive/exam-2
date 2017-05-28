@@ -1,0 +1,143 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus{
+    text-decoration: none;
+}
+input:focus, textarea:focus, button:focus {outline: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.gradient-overlay-wrapper:after{background-image: url(../img/bg-1.png);           background-position: center; 
+    background-size: cover;
+}
+.gradient-overlay-wrapper {
+background: #352eb8;
+background: -moz-linear-gradient(45deg, #352eb8 0%, #f94ce9 100%);
+background: -webkit-linear-gradient(45deg, #352eb8 0%,#f94ce9 100%);
+background: linear-gradient(45deg, #352eb8 0%,#f94ce9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#352eb8', endColorstr='#f94ce9',GradientType=1 );
+}
+.gradient-overlay-wrapper {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 1;
+    
+}
+.gradient-overlay-wrapper:after {
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    opacity: .5;
+}
+.logo {
+    max-height: 50px;
+    max-width: 150px;
+    opacity: .7;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+}
+.mainmenu li a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px;
+    opacity: .7;
+}
+.mainmenu li a:hover {
+    opacity: 1;
+}
+.mainmenu li.sign-up-btn a{
+    background: #ff298d;
+    color: #fff;
+    text-transform: uppercase;
+    padding:  13px 32px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.video-play-btn {
+    display: inline-block;
+    background: #bc96ef;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    height: 55px;
+    width: 55px;
+    border-radius:50%; 
+    line-height: 55px;
+    opacity: .8;
+}
+.video-play-btn:hover{
+    color: #fff;
+}
+.header-area {
+    margin-bottom: 100px;
+}
+.hero-text {
+    color: #fff;
+    margin-top: 30px;
+    opacity: .7;
+}
+.hero-text h1{
+    font-size: 36px;
+    font-weight: 300;
+}
+.hero-text p{
+    margin: 20px 0;
+}
+.hero-btn {
+    background: #ff298e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 30px;
+    transition: .3s;
+}
+.hero-btn:hover {
+    color: #fff;
+    background:#999;
+}
+.hero-button {
+    margin: 50px 0;
+}
