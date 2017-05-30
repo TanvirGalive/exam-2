@@ -1,19 +1,25 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
   
-    
+    .section-heading h1{color: red}
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    .section-heading h1{color: green}
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
  
-    
-}
+    .section-heading h1{color: sienna}
+.gradient-overlay-wrapper{height: auto;}
+.logo {text-align: center; margin: 0 auto}
+.mainmenu ul {text-align: center;}
+.gradient-overlay-wrapper {padding-top: 20px; padding-bottom: 0;}
+.header-area {margin-bottom: 20px;}
+.hero-text h1 {font-size: 20px;}
+.hero-text p {font-size: 16px;}
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
-
+    .section-heading h1{color: blue}
 }

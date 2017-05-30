@@ -3,9 +3,14 @@
 
     jQuery(document).ready(function($){
         
-        $(".video-play-btn").magnificPopup({
-        type:'video',
-    });
+         $(".testimonial-carousel").owlCarousel({
+            items: 1,
+            loops: true,
+            autoplay: true,
+            nav: false,
+            dots: true
+
+        });
 
 
     });
@@ -17,4 +22,4 @@
     });
 
 
-}(jQuery));	
+}(jQuery));
